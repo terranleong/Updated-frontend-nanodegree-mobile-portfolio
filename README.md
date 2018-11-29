@@ -74,5 +74,6 @@ Desktop:  86
 HTTP Caching
 Avoid render blocking CSS
 - media="print"- done
+- media="(orientation: portrait)" -done
 2) Inline CSS 
 3) Inline JS
