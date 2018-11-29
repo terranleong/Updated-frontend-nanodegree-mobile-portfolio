@@ -53,3 +53,21 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+
+#### Before Score:
+Mobile:   81
+Desktop:  81
+
+#### After Score:
+Mobile:   86
+Desktop:  83
+
+#### Measurement:
+1) Time to build CSSOM
+9 ms
+
+#### Optimisation:
+1) Minify file (CSS, JS)
+2) Inline CSS 
+3) Inline JS
