@@ -57,12 +57,12 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 
 #### Before Score:
-Mobile:   81
-Desktop:  81
+Mobile:   84
+Desktop:  84
 
 #### After Score:
-Mobile:   86
-Desktop:  83
+Mobile:   87
+Desktop:  86
 
 #### Measurement:
 1) Time to build CSSOM
