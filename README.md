@@ -57,12 +57,12 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 
 #### Before Score:
-Mobile:   84
-Desktop:  84
+Mobile:   84, 86, 
+Desktop:  84, 78, 
 
 #### After Score:
-Mobile:   87
-Desktop:  86
+Mobile:   87, 85, 
+Desktop:  86, 84, 
 
 #### Measurement:
 1) Time to build CSSOM
@@ -77,3 +77,4 @@ Avoid render blocking CSS
 - media="(orientation: portrait)" -done
 2) Inline CSS 
 3) Inline JS
+Async JS -done
