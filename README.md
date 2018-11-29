@@ -69,6 +69,10 @@ Desktop:  83
 9 ms
 
 #### Optimisation:
-1) Minify file (CSS, JS)
+1) Minify file (CSS, JS) -done
+2) GZip
+HTTP Caching
+Avoid render blocking CSS
+- media="print"- done
 2) Inline CSS 
 3) Inline JS
