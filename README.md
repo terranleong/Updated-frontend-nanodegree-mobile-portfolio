@@ -73,7 +73,7 @@ Desktop:  86, 84, 85, 86
     1) Minify file (CSS, JS) -done
     2) GZip
     3) Minimise picture by compressing/converting 
-        picture format to webp
+        picture format to webp -done
 
 
 2) Reduce critical resources
@@ -82,8 +82,8 @@ Desktop:  86, 84, 85, 86
     - media="(orientation: portrait)" -done
     - no request web font
     2) Inline CSS 
-    3) Inline JS
-    4) Async JS -done
+    3) Inline JS -done
+    <!-- 4) Async JS -done -->
 
 3) Shorten CRP length
     1) HTTP Caching
