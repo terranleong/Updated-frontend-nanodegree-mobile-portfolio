@@ -57,24 +57,35 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 
 #### Before Score:
-Mobile:   84, 86, 84, 
-Desktop:  84, 78, 86, 
+Mobile:   84, 86, 84, 79
+Desktop:  84, 78, 86, 78
 
 #### After Score:
-Mobile:   87, 85, 86, 
-Desktop:  86, 84, 85, 
+Mobile:   87, 85, 86, 79
+Desktop:  86, 84, 85, 86
 
 #### Measurement:
 1) Time to build CSSOM
 9 ms
 
 #### Optimisation:
-1) Minify file (CSS, JS) -done
-2) GZip
-HTTP Caching
-Avoid render blocking CSS
-- media="print"- done
-- media="(orientation: portrait)" -done
-2) Inline CSS 
-3) Inline JS
-Async JS -done
+1) Minimize bytes
+    1) Minify file (CSS, JS) -done
+    2) GZip
+
+
+2) Reduce critical resources
+    1) Avoid render blocking CSS
+    - media="print"- done
+    - media="(orientation: portrait)" -done
+    - no request web font
+    2) Inline CSS 
+    3) Inline JS
+    4) Async JS -done
+
+3) Shorten CRP length
+    1) HTTP Caching
+
+
+
+
