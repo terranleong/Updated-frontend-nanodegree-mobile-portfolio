@@ -72,6 +72,8 @@ Desktop:  86, 84, 85, 86
 1) Minimize bytes
     1) Minify file (CSS, JS) -done
     2) GZip
+    3) Minimise picture by compressing/converting 
+        picture format to webp
 
 
 2) Reduce critical resources
