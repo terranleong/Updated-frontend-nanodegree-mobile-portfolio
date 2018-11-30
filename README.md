@@ -73,11 +73,12 @@ Desktop:  86, 84, 85, 86
     1) Minify file (CSS, JS) -done
     2) GZip
     3) Minimise picture by compressing/converting 
-        picture format to webp -done
+        1) picture format to webp -done
+        2) compress file with GZIP
 
 
 2) Reduce critical resources
-    1) Avoid render blocking CSS
+    1) Avoid render blocking CSS (use media queries for css and asyc/defer for js)
     - media="print"- done
     - media="(orientation: portrait)" -done
     - no request web font
