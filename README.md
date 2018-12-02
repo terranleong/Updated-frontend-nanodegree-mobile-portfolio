@@ -71,23 +71,22 @@ Desktop:  86, 84, 85, 86
 #### Optimisation:
 1) Minimize bytes
     1) Minify file (CSS, JS) -done
-    2) GZip
+    2) GZip -done
     3) Minimise picture by compressing/converting 
         1) picture format to webp -done
-        2) compress file with GZIP
 
 
 2) Reduce critical resources
     1) Avoid render blocking CSS (use media queries for css and asyc/defer for js)
     - media="print"- done
     - media="(orientation: portrait)" -done
-    - no request web font
+    - no request web font -done
     2) Inline CSS 
     3) Inline JS -done
     <!-- 4) Async JS -done -->
 
 3) Shorten CRP length
-    1) HTTP Caching
+    1) HTTP Caching -done
 
 
 
