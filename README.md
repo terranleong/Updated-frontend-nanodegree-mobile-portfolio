@@ -88,6 +88,9 @@ Desktop:  86, 84, 85, 86
 3) Shorten CRP length
     1) HTTP Caching -done
 
+###Bug Fixed:
+1. <!-- <link rel="shortcut icon" href="#"> -->
+
 
 
 
