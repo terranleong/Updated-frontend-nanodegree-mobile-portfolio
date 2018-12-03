@@ -81,9 +81,10 @@ Desktop:  86, 84, 85, 86
     - media="print"- done
     - media="(orientation: portrait)" -done
     - no request web font -done
+    - move js to different file and async
     2) Inline CSS 
-    <!-- 3) Inline JS -done -->
-    4) Async JS -done
+    3) Inline JS -done
+    <!-- 4) Async JS -done -->
 
 3) Shorten CRP length
     1) HTTP Caching -done
