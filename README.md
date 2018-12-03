@@ -72,9 +72,9 @@ Desktop:  86, 84, 85, 86
 1) Minimize bytes
     1) Minify file (CSS, JS) -done
     2) GZip -done
-    3) Minimise picture by compressing/converting 
-        1) picture format to webp -done
-
+    3) Minimise picture by resizing/compressing/converting 
+        1) resize pizzeria to 100px -done
+        2) convert picture format to webp -done
 
 2) Reduce critical resources
     1) Avoid render blocking CSS (use media queries for css and asyc/defer for js)
