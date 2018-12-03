@@ -82,8 +82,8 @@ Desktop:  86, 84, 85, 86
     - media="(orientation: portrait)" -done
     - no request web font -done
     2) Inline CSS 
-    3) Inline JS -done
-    <!-- 4) Async JS -done -->
+    <!-- 3) Inline JS -done -->
+    4) Async JS -done
 
 3) Shorten CRP length
     1) HTTP Caching -done
