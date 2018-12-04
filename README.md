@@ -56,19 +56,41 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 
 
-#### Before Score:
-Mobile:   84, 86, 84, 79
-Desktop:  84, 78, 86, 78
-
-#### After Score:
-Mobile:   87, 85, 86, 79
-Desktop:  86, 84, 85, 86
-
-#### Measurement:
-1) Time to build CSSOM
-9 ms
-
 #### Optimisation:
+#### 1. Measurement:
+1) Google PageSpeed Insights
+
+    1. Before Score:
+        Mobile  :   85
+        Desktop :   84
+
+    2. After Score:
+        Mobile  :   99
+        Desktop :   100
+
+2) GTmetrix
+    1. Before:
+        1. PageSpeed Score      =   28%
+        2. YSlow Score Score    =   79%
+        3. Fully Loaded Time    =   13.2s
+        4. Total Page Size      =   2320 KB
+        5. Request              =   13
+
+    2. After:
+        1. PageSpeed Score      =   96%
+        2. YSlow Score Score    =   92%
+        3. Fully Loaded Time    =   1.8s
+        4. Total Page Size      =   24.4 KB
+        5. Request              =   11
+
+3) Time to build CSSOM
+    1. Before:
+        40.4 ms
+
+    2. After:
+        3.6 ms
+
+#### 2. Optimisation Detail:
 1) Minimize bytes
     1) Minify file (CSS, JS) -done
     2) GZip compressing-done
@@ -92,9 +114,13 @@ Desktop:  86, 84, 85, 86
 3) Shorten CRP length
     1) HTTP Caching -done
 
-###Bug Fixed:
+### 3. Bug Fixed:
 1. <!-- <link rel="shortcut icon" href="#"> -->
 
-###Performance Checking:
-1. W3C check
+### 4. Performance Checking:
+1. W3C check                    - done
+2. gtmetrix.com                 - done
+3. http-compression-test        - done
+4. Google PageSpeed Insights    - done
+
 
