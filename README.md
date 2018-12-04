@@ -71,20 +71,23 @@ Desktop:  86, 84, 85, 86
 #### Optimisation:
 1) Minimize bytes
     1) Minify file (CSS, JS) -done
-    2) GZip -done
+    2) GZip compressing-done
     3) Minimise picture by resizing/compressing/converting 
         1) resize pizzeria to 100px -done
-        2) convert picture format to webp -done
+        2) convert all pictures format to webp format for smaller       size -done
 
 2) Reduce critical resources
-    1) Avoid render blocking CSS (use media queries for css and asyc/defer for js)
-    - media="print"- done
-    - media="(orientation: portrait)" -done
+    1) Avoid render blocking CSS (e.g. use media queries for css and asyc/defer for js)
+    - move smartphone css from style.css to another css file (portrait.min.css) -done
+    - add media="print" on print.min.css- done
+    - add media="(orientation: portrait)" on portrait.min.css -done
     - no request web font -done
-    - move js to different file and async
-    2) Inline CSS 
-    3) Inline JS -done
-    <!-- 4) Async JS -done -->
+    - import webfont instead of link -used local machine font instead
+    - move js to different file and async -no action taken
+    - moving scripts down the html page -no action taken, no obvious    improvement for me
+    - defer js -used async on perfmatters instead
+    2) Inline CSS -not viable, update would be ineeficient in future
+    3) Inline JS -not viable, update would be ineeficient in future
 
 3) Shorten CRP length
     1) HTTP Caching -done
@@ -92,6 +95,6 @@ Desktop:  86, 84, 85, 86
 ###Bug Fixed:
 1. <!-- <link rel="shortcut icon" href="#"> -->
 
-
-
+###Performance Checking:
+1. W3C check
 
