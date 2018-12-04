@@ -96,7 +96,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
     2) GZip compressing-done
     3) Minimise picture by resizing/compressing/converting 
         1) resize pizzeria to 100px -done
-        2) convert all pictures format to webp format for smaller       size -done
+        2) convert all pictures format to webp format for smaller size -done
 
 2) Reduce critical resources
     1) Avoid render blocking CSS (e.g. use media queries for css and asyc/defer for js)
@@ -106,7 +106,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
     - no request web font -done
     - import webfont instead of link -used local machine font instead
     - move js to different file and async -no action taken
-    - moving scripts down the html page -no action taken, no obvious    improvement for me
+    - moving scripts down the html page -no action taken, no obvious improvement for me
     - defer js -used async on perfmatters instead
     2) Inline CSS -not viable, update would be ineeficient in future
     3) Inline JS -not viable, update would be ineeficient in future
@@ -115,7 +115,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
     1) HTTP Caching -done
 
 ### 3. Bug Fixed:
-1. Adding this line <!-- <link rel="shortcut icon" href="#"> --> to     head to resolve 'favicon.ico, 404 File not found' error
+1. Adding this line <!-- <link rel="shortcut icon" href="#"> --> to head to resolve 'favicon.ico, 404 File not found' error
 
 ### 4. Performance Checking:
 1. W3C check                    - done
