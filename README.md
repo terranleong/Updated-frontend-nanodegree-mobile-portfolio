@@ -55,19 +55,72 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
 
-#### Before Score:
-Mobile:   81
-Desktop:  81
-
-#### After Score:
-Mobile:   86
-Desktop:  83
-
-#### Measurement:
-1) Time to build CSSOM
-9 ms
 
 #### Optimisation:
-1) Minify file (CSS, JS)
-2) Inline CSS 
-3) Inline JS
+#### 1. Measurement:
+1) Google PageSpeed Insights
+
+    1. Before Score:
+        Mobile  :   85
+        Desktop :   84
+
+    2. After Score:
+        Mobile  :   99
+        Desktop :   100
+
+2) GTmetrix
+    1. Before:
+        1. PageSpeed Score      =   28%
+        2. YSlow Score Score    =   79%
+        3. Fully Loaded Time    =   13.2s
+        4. Total Page Size      =   2320 KB
+        5. Request              =   13
+
+    2. After:
+        1. PageSpeed Score      =   96%
+        2. YSlow Score Score    =   92%
+        3. Fully Loaded Time    =   1.8s
+        4. Total Page Size      =   24.4 KB
+        5. Request              =   11
+
+3) Time to build CSSOM
+    1. Before:
+        40.4 ms
+
+    2. After:
+        3.6 ms
+
+#### 2. Optimisation Detail:
+1) Minimize bytes
+    1) Minify file (CSS, JS) -done
+    2) GZip compressing-done
+    3) Minimise picture by resizing/compressing/converting 
+        1) resize pizzeria to 100px -done
+        2) convert all pictures format to webp format for smaller       size -done
+
+2) Reduce critical resources
+    1) Avoid render blocking CSS (e.g. use media queries for css and asyc/defer for js)
+    - move smartphone css from style.css to another css file (portrait.min.css) -done
+    - add media="print" on print.min.css- done
+    - add media="(orientation: portrait)" on portrait.min.css -done
+    - no request web font -done
+    - import webfont instead of link -used local machine font instead
+    - move js to different file and async -no action taken
+    - moving scripts down the html page -no action taken, no obvious    improvement for me
+    - defer js -used async on perfmatters instead
+    2) Inline CSS -not viable, update would be ineeficient in future
+    3) Inline JS -not viable, update would be ineeficient in future
+
+3) Shorten CRP length
+    1) HTTP Caching -done
+
+### 3. Bug Fixed:
+1. <!-- <link rel="shortcut icon" href="#"> -->
+
+### 4. Performance Checking:
+1. W3C check                    - done
+2. gtmetrix.com                 - done
+3. http-compression-test        - done
+4. Google PageSpeed Insights    - done
+
+
