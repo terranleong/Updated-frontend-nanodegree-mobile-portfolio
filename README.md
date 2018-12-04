@@ -115,7 +115,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
     1) HTTP Caching -done
 
 ### 3. Bug Fixed:
-1. <!-- <link rel="shortcut icon" href="#"> -->
+1. Adding this line <!-- <link rel="shortcut icon" href="#"> --> to     head to resolve 'favicon.ico, 404 File not found' error
 
 ### 4. Performance Checking:
 1. W3C check                    - done
